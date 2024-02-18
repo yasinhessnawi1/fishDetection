@@ -1,6 +1,6 @@
 
 #include <string>
-#include "VideoProcessor.h" // Ensure this includes your VideoProcessor class definition
+#include "headers/VideoProcessor.h" // Ensure this includes your VideoProcessor class definition
 
 int main() {
     //install opencv with brew install opencv in clion terminal

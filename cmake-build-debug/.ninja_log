@@ -1,9 +1,8 @@
 # ninja log v5
-5	1327	1708291342565965947	CMakeFiles/fishDetection.dir/main.cpp.o	f05ae32eeb07ed28
-1327	1402	1708291342646630606	fishDetection	8abe993fe1d3bc65
-8	2812	1708292278914762408	CMakeFiles/fishDetection.dir/VideoProcessor.cpp.o	22bccc9d8bf193f6
 7	2826	1708292278931068959	CMakeFiles/fishDetection.dir/FishDetector.cpp.o	fc9da12553354b0f
-6	3015	1708292279123011653	CMakeFiles/fishDetection.dir/main.cpp.o	f05ae32eeb07ed28
-3016	3112	1708292279225673386	fishDetection	e6ca2656a6e997e3
-3	1494	1708292423940798369	CMakeFiles/fishDetection.dir/main.cpp.o	f05ae32eeb07ed28
+8	2812	1708292278914762408	CMakeFiles/fishDetection.dir/VideoProcessor.cpp.o	22bccc9d8bf193f6
 1495	1660	1708292424112487891	fishDetection	e6ca2656a6e997e3
+3	1494	1708292423940798369	CMakeFiles/fishDetection.dir/main.cpp.o	f05ae32eeb07ed28
+2	111	1708292999603020881	build.ninja	2d57591642b59f0
+3	1361	1708293000973003922	CMakeFiles/fishDetection.dir/main.cpp.o	f05ae32eeb07ed28
+1361	1441	1708293001058901286	fishDetection	5752c7b08473e3dc
