@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="fishDetection"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\opencv\;CMake Files\..\opencv\build\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/ra91m/fishdetection/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ra91m/fishdetection/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ra91m/fishdetection/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ra91m/fishdetection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ra91m/fishdetection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fishDetection">
+				<Option output="C:/Users/ra91m/fishdetection/cmake-build-debug/fishDetection.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ra91m/fishdetection/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/ra91m/opencv/build"/>
+					<Add directory="C:/Users/ra91m/opencv/include"/>
+					<Add directory="C:/Users/ra91m/opencv/modules/core/include"/>
+					<Add directory="C:/Users/ra91m/opencv/modules/flann/include"/>
+					<Add directory="C:/Users/ra91m/opencv/modules/imgproc/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/intensity_transform/include"/>
+					<Add directory="C:/Users/ra91m/opencv/modules/ml/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/phase_unwrapping/include"/>
+					<Add directory="C:/Users/ra91m/opencv/modules/photo/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/plot/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/quality/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/reg/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/signal/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/surface_matching/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/xphoto/include"/>
+					<Add directory="C:/Users/ra91m/opencv/modules/dnn/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/dnn_superres/include"/>
+					<Add directory="C:/Users/ra91m/opencv/modules/features2d/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/fuzzy/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/hfs/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/img_hash/include"/>
+					<Add directory="C:/Users/ra91m/opencv/modules/imgcodecs/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/line_descriptor/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/saliency/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/text/include"/>
+					<Add directory="C:/Users/ra91m/opencv/modules/videoio/include"/>
+					<Add directory="C:/Users/ra91m/opencv/modules/calib3d/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/datasets/include"/>
+					<Add directory="C:/Users/ra91m/opencv/modules/highgui/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/mcc/include"/>
+					<Add directory="C:/Users/ra91m/opencv/modules/objdetect/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/rapid/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/rgbd/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/shape/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/structured_light/include"/>
+					<Add directory="C:/Users/ra91m/opencv/modules/ts/include"/>
+					<Add directory="C:/Users/ra91m/opencv/modules/video/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/videostab/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/wechat_qrcode/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/xfeatures2d/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/ximgproc/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/xobjdetect/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/aruco/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/bgsegm/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/bioinspired/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/ccalib/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/dnn_objdetect/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/dpm/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/face/include"/>
+					<Add directory="C:/Users/ra91m/opencv/modules/gapi/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/optflow/include"/>
+					<Add directory="C:/Users/ra91m/opencv/modules/stitching/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/superres/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/tracking/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/stereo/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ra91m/fishdetection/cmake-build-debug/Makefile&quot;  VERBOSE=1 fishDetection"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ra91m/fishdetection/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ra91m/fishdetection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ra91m/fishdetection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fishDetection/fast">
+				<Option output="C:/Users/ra91m/fishdetection/cmake-build-debug/fishDetection.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ra91m/fishdetection/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/ra91m/opencv/build"/>
+					<Add directory="C:/Users/ra91m/opencv/include"/>
+					<Add directory="C:/Users/ra91m/opencv/modules/core/include"/>
+					<Add directory="C:/Users/ra91m/opencv/modules/flann/include"/>
+					<Add directory="C:/Users/ra91m/opencv/modules/imgproc/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/intensity_transform/include"/>
+					<Add directory="C:/Users/ra91m/opencv/modules/ml/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/phase_unwrapping/include"/>
+					<Add directory="C:/Users/ra91m/opencv/modules/photo/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/plot/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/quality/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/reg/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/signal/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/surface_matching/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/xphoto/include"/>
+					<Add directory="C:/Users/ra91m/opencv/modules/dnn/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/dnn_superres/include"/>
+					<Add directory="C:/Users/ra91m/opencv/modules/features2d/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/fuzzy/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/hfs/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/img_hash/include"/>
+					<Add directory="C:/Users/ra91m/opencv/modules/imgcodecs/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/line_descriptor/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/saliency/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/text/include"/>
+					<Add directory="C:/Users/ra91m/opencv/modules/videoio/include"/>
+					<Add directory="C:/Users/ra91m/opencv/modules/calib3d/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/datasets/include"/>
+					<Add directory="C:/Users/ra91m/opencv/modules/highgui/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/mcc/include"/>
+					<Add directory="C:/Users/ra91m/opencv/modules/objdetect/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/rapid/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/rgbd/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/shape/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/structured_light/include"/>
+					<Add directory="C:/Users/ra91m/opencv/modules/ts/include"/>
+					<Add directory="C:/Users/ra91m/opencv/modules/video/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/videostab/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/wechat_qrcode/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/xfeatures2d/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/ximgproc/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/xobjdetect/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/aruco/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/bgsegm/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/bioinspired/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/ccalib/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/dnn_objdetect/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/dpm/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/face/include"/>
+					<Add directory="C:/Users/ra91m/opencv/modules/gapi/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/optflow/include"/>
+					<Add directory="C:/Users/ra91m/opencv/modules/stitching/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/superres/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/tracking/include"/>
+					<Add directory="C:/Users/ra91m/opencv_contrib/modules/stereo/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ra91m/fishdetection/cmake-build-debug/Makefile&quot;  VERBOSE=1 fishDetection/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ra91m/fishdetection/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ra91m/fishdetection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ra91m/fishdetection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/ra91m/fishdetection/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ra91m/fishdetection/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ra91m/fishdetection/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ra91m/fishdetection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ra91m/fishdetection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/ra91m/fishdetection/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ra91m/fishdetection/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ra91m/fishdetection/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ra91m/fishdetection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ra91m/fishdetection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/ra91m/fishdetection/headers/MovementDetector .h">
+			<Option target="fishDetection"/>
+		</Unit>
+		<Unit filename="C:/Users/ra91m/fishdetection/headers/VideoProcessor.h">
+			<Option target="fishDetection"/>
+		</Unit>
+		<Unit filename="C:/Users/ra91m/fishdetection/main.cpp">
+			<Option target="fishDetection"/>
+		</Unit>
+		<Unit filename="C:/Users/ra91m/fishdetection/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/ra91m/fishdetection/../opencv/build/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\opencv\build\"/>
+		</Unit>
+		<Unit filename="C:/Users/ra91m/fishdetection/../opencv/build/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\opencv\build\"/>
+		</Unit>
+		<Unit filename="C:/Users/ra91m/fishdetection/../opencv/build/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\opencv\build\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
