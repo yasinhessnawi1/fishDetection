@@ -1,3 +1,0 @@
-/Users/yasinhessnawi/Downloads/fishDetection/cmake-build-debug/CMakeFiles/fishDetection.dir
-/Users/yasinhessnawi/Downloads/fishDetection/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/yasinhessnawi/Downloads/fishDetection/cmake-build-debug/CMakeFiles/rebuild_cache.dir

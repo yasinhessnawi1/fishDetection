@@ -1,29 +1,29 @@
-//
-// Created by yasin hessnawi on 18/02/2024.
-//
-
 #ifndef FISHDETECTION_VIDEOPROCESSOR_H
 #define FISHDETECTION_VIDEOPROCESSOR_H
 
 #include <opencv2/opencv.hpp>
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/videoio/videoio.hpp>
-#include "FishDetector.h" // Make sure to include the header file for the FishDetector class
+#include "MovementDetector .h "// Include the MovementDetector header
 
 class VideoProcessor {
 public:
     VideoProcessor(const std::string& videoPath) {
         capture.open(videoPath);
-        detector = FishDetector();
-        // Ensure the FishDetector is initialized if needed
+        if (!capture.isOpened()) {
+            throw std::runtime_error("Could not open video file: " + videoPath);
+        }
+        // Initialize the MovementDetector
+        detector = MovementDetector();
     }
 
     void process() {
         cv::Mat frame;
         while (capture.read(frame)) {
-            detector.detectAndTrack(frame);
+            // Use MovementDetector to detect movements in the frame
+            detector.detectAndCompare(frame);
 
-            cv::resize(frame, frame, cv::Size(800, 600));
+            cv::resize(frame, frame, cv::Size(800, 600)); // Optional: Resize for display
             cv::imshow("Video Frame", frame);
             if (cv::waitKey(20) >= 0) break; // Exit if a key is pressed
         }
@@ -33,8 +33,7 @@ public:
 
 private:
     cv::VideoCapture capture;
-    FishDetector detector; // Assuming you have a corresponding C++ FishDetector class
+    MovementDetector detector; // Use MovementDetector for movement detection
 };
-
 
 #endif //FISHDETECTION_VIDEOPROCESSOR_H
